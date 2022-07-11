@@ -1,0 +1,65 @@
+
+/*  customer section */
+#transferBtn , #doTransferBtn {
+    text-transform: capitalize;
+    background-color: #446F8E;
+    color: #fff;
+    font-size: 18px;
+    padding: 6px 25px;
+}
+.closeBtn {
+    background-color: gray;
+    padding: 7px 12px ;
+    color: #fff;
+}
+.closeBtn:focus{
+    box-shadow: none;
+}
+
+#transferBtn:hover , .closeBtn:hover{
+    color: #fff;
+}
+
+.navbar{
+    position: relative;
+}
+
+.mymodal{
+    width: 100%;
+    height: 100vh; 
+    position: fixed;
+     top: 0;
+     left: 0;
+     right: 0;
+     bottom: 0;
+     background-color: rgba(0, 0, 0, .3);
+     z-index: 1000;
+     display: none;
+     justify-content: center;
+     padding-top: 30px;
+     align-items: baseline;
+}
+.modal-box{
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    display: none;
+}
+
+.reciever span {
+    top: 0px;
+    right: 0px;
+    background: #e1dede;
+    padding: 5.8px;
+    border-bottom-right-radius: 3px;
+    border-top-right-radius: 3px;
+}
+#sendMoneyTo{
+    font-size: 22px;
+}
+
+@media screen and (min-width:768px) {
+    .modal-box{
+        width: 32%;
+    }
+}
